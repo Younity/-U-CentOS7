@@ -2,7 +2,7 @@
 
 ## 安装步骤：
 
-1. 下载CentOS7和UltraISO。
+1. 下载[CentOS 7](https://www.centos.org/)和[UltraISO](https://www.ultraiso.com/download.html)。
 
 2. 使用UltraISO将CentOS7的ISO文件写入U盘，成功写入后，U盘名为`CentOS 7 x8`，此时U盘相当于一张光盘。
 
