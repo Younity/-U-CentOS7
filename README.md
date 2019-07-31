@@ -20,7 +20,7 @@
 
 8. 安装CentOS7后，电脑重启没有windows7启动项的解决办法:  
 
-  8.1 进入root模式。在Terminal中输入`vi /etc/grub.d/40_custom`  
+    8.1 进入root模式。在Terminal中输入`vi /etc/grub.d/40_custom`  
 
   8.2 在打开的文件末尾添加以下代码(`windows7`是启动项要显示出来的名字，`chainloader`和`+1`之间有一个空格)：
   ```
