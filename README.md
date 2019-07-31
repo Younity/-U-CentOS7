@@ -6,7 +6,7 @@
 
 2. 使用UltraISO将CentOS7的ISO文件写入U盘，成功写入后，U盘名为`CentOS 7 x8`，此时U盘相当于一张光盘。
 
-3. 打开U盘，删除EFI文件夹（第一次安装没有删除，结果在磁盘分区之后报错）。
+3. 打开U盘，删除`EFI文件夹`（第一次安装没有删除，结果在磁盘分区之后报错）。
 
 4. 重启，设置BIOS从U盘启动，之后，在选择界面选中`Install CentOS 7`选项，
 按“e”进入编辑，删除字符串`LABEL=CentOS\x207\x20x86_64 quiet`中的`6_64`，按下Ctrl+x执行。
@@ -20,19 +20,20 @@
 
 8. 安装CentOS7后，电脑重启没有windows7启动项的解决办法:  
 
-8.1 进入root模式。在Terminal中输入`vi /etc/grub.d/40_custom`
-8.2 在打开的文件末尾添加以下代码：(说明：'windows7'是启动项要显示出来的名字，`chainloader`和`+1`之间有一个空格)
+  8.1 进入root模式。在Terminal中输入`vi /etc/grub.d/40_custom`  
+
+  8.2 在打开的文件末尾添加以下代码(`windows7`是启动项要显示出来的名字，`chainloader`和`+1`之间有一个空格)：
   ```
   menuentry 'windows7' {
     set root=(hd0,1)
     chainloader +1
     }
   ```
-8.3 在Terminal中输入`grub2-mkconfig -o /boot/grub2/grub.cfg`  
+  8.3 在Terminal中输入`grub2-mkconfig -o /boot/grub2/grub.cfg`  
 
-8.4 在Terminal中输入`vi /boot/grub2/grub.cfg`  
+  8.4 在Terminal中输入`vi /boot/grub2/grub.cfg`  
 
-8.5 在打开的文件末尾添加一以下代码：
+  8.5 在打开的文件末尾添加一以下代码：
   ```
   menuentry'window7' {
     insmod chain
@@ -48,5 +49,5 @@
     chainloader +1
   }
   ```
-8.6 在Terminal中输入`grub2-mkconfig -o /boot/grub2/grub.cfg`。
+  8.6 在Terminal中输入`grub2-mkconfig -o /boot/grub2/grub.cfg`。
   
