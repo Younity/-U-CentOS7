@@ -28,7 +28,7 @@
     
     8.4 在Terminal中输入`vi /boot/grub2/grub.cfg`  
     
-    8.5 在打开的文件末尾添加一以下代码：
+    8.5 在打开的文件末尾添加[代码](https://github.com/Younity/-U-CentOS7/blob/master/grub.cfg)
 
     8.6 在Terminal中输入`grub2-mkconfig -o /boot/grub2/grub.cfg`。
   
