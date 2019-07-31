@@ -24,13 +24,10 @@
 
     8.2 在打开的文件末尾添加以下代码(`windows7`是启动项要显示出来的名字，`chainloader`和`+1`之间有一个空格)：  
 
-  menuentry 'windows7' {
-    set root=(hd0,1)
-    chainloader +1
-    }
-
     8.3 在Terminal中输入`grub2-mkconfig -o /boot/grub2/grub.cfg` 
+    
     8.4 在Terminal中输入`vi /boot/grub2/grub.cfg`  
+    
     8.5 在打开的文件末尾添加一以下代码：
 
   menuentry'window7' {
