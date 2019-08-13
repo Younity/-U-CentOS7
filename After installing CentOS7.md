@@ -29,3 +29,17 @@ software could be install with EPEL:
                 # yum -y remove vim-minimal vim-common vim-enhanced sudo
                 # yum -y --enablerepo=gf-plus install vim-enhanced sudo
             ```
+        - 更新g++ gcc
+            ```
+                # yum install centos-release-scl -y
+                # yum install devtoolset-3-toolchain -y
+                # yum install gcc-c++
+                # scl enable devtoolset-3 bash
+            ```
+        - 下载git，安装YouCompleteMe
+            ```
+                # yum install git
+                # git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe
+                // 此时需要登陆github帐号
+                # cd ~/.vim/bundle/YouCompleteMe
+                # git submodule update --init --recursive
