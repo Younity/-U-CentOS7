@@ -77,5 +77,5 @@ software could be install with EPEL:
                 // 分别从官网下载这两个文件放到本地。
                 # ./install.py --clang-completer（第三次）
                 // ERROR: folder waitress in /root/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party is empty;
-                
+                // # yum install cmake
            ```
