@@ -8,8 +8,7 @@ software could be install with EPEL:
     ``` # yum install goldendict ```  
     - [About Dictionary1](http://blog.sina.com.cn/s/blog_933b54980102x6hr.html)  
     - [About Dictionary2](https://forum.ubuntu.org.cn/viewtopic.php?f=95&t=265588)
-    - install [mplayer](https://baijiahao.baidu.com/s?id=1598526149664765152&wfr=spider&for=pc) to listen the pronunciation
-    of words.  
+    - [Install mplayer](https://baijiahao.baidu.com/s?id=1598526149664765152&wfr=spider&for=pc)：解决goldendict中无法听单词发音的问题。
     
         ``` 
             // 获取mplayer的安装源：
