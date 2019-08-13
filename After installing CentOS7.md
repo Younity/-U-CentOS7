@@ -80,4 +80,5 @@ software could be install with EPEL:
                 // # yum install cmake
                 # ./install.py --clang-completer（第四次）
                 // ERROR: Python headers are missing in /usr/include/python2.7.
+                // # yum install python-devel
            ```
