@@ -1,4 +1,4 @@
-# After install CentOS7
+# After installing CentOS7
 
 ## [EPEL](https://fedoraproject.org/wiki/EPEL)（Extra Packages For Enterprise Linux）
 *When I want to install "Goldendict" (a translation software), I found the [EPEL](https://fedoraproject.org/wiki/EPEL)*
