@@ -61,4 +61,21 @@ software could be install with EPEL:
                 // 在该.vimrc中输入以下内容
                 set nocompatible
                 filetype off
-                set
+                set rtp+=~/.vim/bundle/Vundle.vim
+                call vundel#begin()
+                Plugin 'gmarik/Vundle.vim'
+                call vundle#end()
+                filetype plugin indent on
+            ```
+        - 安装
+            ```
+                # cd ~/.vim/bundle/YouCompleteMe
+                # ./install.py --clang-completer
+                // ERROR: folder python-future in /root/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party is empty;
+                # ./install.py --clang-completer（第二次）
+                // ERROR: folder waitress in /root/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party is empty; 
+                // 分别从官网下载这两个文件放到本地。
+                # ./install.py --clang-completer（第三次）
+                // ERROR: folder waitress in /root/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party is empty;
+                
+           ```
