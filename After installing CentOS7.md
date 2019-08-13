@@ -43,3 +43,15 @@ software could be install with EPEL:
                 // 此时需要登陆github帐号
                 # cd ~/.vim/bundle/YouCompleteMe
                 # git submodule update --init --recursive
+                // 上一条命令执行完报错：
+                Cloning into 'third_party/go/src/golang.org/x/tools'...
+                fatal: unable to access 'https://go.googlesource.com/tools/': Failed connect to go.googlesource.com:443; Connection timed out
+                Clone of 'https://go.googlesource.com/tools' into submodule path 'third_party/go/src/golang.org/x/tools' failed
+                Failed to recurse into submodule path 'third_party/ycmd'
+                [解决办法](https://www.cnblogs.com/YMaster/p/11209813.html)：
+                    在github上找到该模块下载到以下路径.
+                    ```
+                    # cd ~/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/go/src/golang.org/x
+                    # git clone https://github.com/golang/tools.git
+                    ```
+                
