@@ -18,3 +18,14 @@ software could be install with EPEL:
             // 安装 mplayer图形化界面：
             # yum install mplayer-gui
         ```
+## 工具
+1. [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
+    - 安装教程:
+        - [参考](https://blog.csdn.net/fakine/article/details/91306166)
+        - 更新VIM
+            ``` 
+                # rpm Uvh http://mirror.ghettoforge.org/distributions/gf/gf-release-latest.gf.el7.noarch.rpm
+                # rpm --import http://mirror.ghettoforge.org/distributions/gf/RPM-GPG-KEY-gf.el7
+                # yum -y remove vim-minimal vim-common vim-enhanced sudo
+                # yum -y --enablerepo=gf-plus install vim-enhanced sudo
+            ```
