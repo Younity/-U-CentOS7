@@ -5,4 +5,7 @@
 which is the abbr of "Extra Packages For Enterprise Linux".*
 
 software could be install with EPEL:
-- Goldendict
+- Goldendict  
+    ``` # yum install goldendict ```  
+    - [About Dictionary1](http://blog.sina.com.cn/s/blog_933b54980102x6hr.html)  
+    - [About Dictionary2](https://forum.ubuntu.org.cn/viewtopic.php?f=95&t=265588)
