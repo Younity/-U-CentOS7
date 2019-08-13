@@ -78,4 +78,6 @@ software could be install with EPEL:
                 # ./install.py --clang-completer（第三次）
                 // ERROR: folder waitress in /root/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party is empty;
                 // # yum install cmake
+                # ./install.py --clang-completer（第四次）
+                // ERROR: Python headers are missing in /usr/include/python2.7.
            ```
