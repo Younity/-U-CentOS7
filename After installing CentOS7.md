@@ -84,3 +84,9 @@ software could be install with EPEL:
                 # ./install.py --clang-completer（第五次）
                 // 成功。
            ```
+       - 复制.ycm_extra_conf.py到～/
+            ```
+            # cp ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py ~/
+            // 复制失败，没有这个文件，然后自己在~/下自己创建一个.ycm_extra_conf.py
+            ```
+       - 在.vimrc中添加以下内容（自己瞎猜的）
