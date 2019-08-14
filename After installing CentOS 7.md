@@ -91,3 +91,13 @@ software could be install with EPEL:
             ```
        - 在.vimrc中添加以下内容（自己瞎猜的）
        - 安装失败，打开vim，出现 no mapping found.
+       - 这时发现自己时在root下安装的YouCompleteMe，又参考[官网教程](https://github.com/ycm-core/YouCompleteMe#full-installation-guide)安装。
+       
+2. gdb安装
+- 使用gdb时报错Missing separate debuginfos, use: debuginfo-install glibc-2.17-157.el7_3.5.x86_64的[解决办法](https://blog.51cto.com/thinklili/2287379)
+    - 使用root账户，修改"/etc/yum.repos.d/CentOS-Debuginfo.repo"文件的 enable=1。 
+    - 安装glibc：
+            ```sudo debuginfo-install glibc-2.17-260.el7_6.6.x86_64```
+
+
+
