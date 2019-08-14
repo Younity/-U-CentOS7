@@ -99,7 +99,23 @@ software could be install with EPEL:
            - 在`.vimrc`指定的地方(Vundle安装中会说明)中加入`Plugin 'Valloric/YouCompleteMe'`
            - 在Vim中使用 `:PluginIstall` 安装Vundle插件-YouCompleteMe
            - 安装一个多小时出现错误信息，不能继续安装，改用在～/.vim/bundle/YouCompleteMe文件夹下使用 `git submodule update --init --recursive` 命令(YCM官方教程中提到，如果不使用Vundle安装，则使用这种方法，这里用来接续安装使用Vundle不能继续安装的部分，这种用法是想当然瞎猜的)
-           
+        3.    We'll create a new folder where build files will be placed. Run the following:
+            ```
+                cd ~
+                mkdir ycm_build
+                cd ycm_build
+            ```
+            - Now we need to generate the makefiles. If you DON'T care about semantic support for C-family languages or plan to use experimental clangd based completer, run the following command in the ycm_build directory:
+                ```
+                cmake -G "<generator>" . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
+                ```
+                where <generator> is Unix Makefiles on Unix systems   
+                
+            - Now that configuration files have been generated, compile the libraries using this command:
+                ```
+                    cmake --build . --target ycm_core
+                ```
+
         
         
 2. gdb安装
