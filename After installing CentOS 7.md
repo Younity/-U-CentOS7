@@ -90,3 +90,4 @@ software could be install with EPEL:
             // 复制失败，没有这个文件，然后自己在~/下自己创建一个.ycm_extra_conf.py
             ```
        - 在.vimrc中添加以下内容（自己瞎猜的）
+       - 安装失败，打开vim，出现 no mapping found.
