@@ -125,7 +125,7 @@ software could be install with EPEL:
     - 使用root账户，修改"/etc/yum.repos.d/CentOS-Debuginfo.repo"文件的 enable=1。 
     - 安装glibc：
             ```sudo debuginfo-install glibc-2.17-260.el7_6.6.x86_64```
-- [gdb教程]()
+- [gdb教程](https://github.com/Younity/Use-CentOS-7/blob/master/gdb.md)
 
 3. Vim相关
     - 插件管理器 
