@@ -127,4 +127,8 @@ software could be install with EPEL:
             ```sudo debuginfo-install glibc-2.17-260.el7_6.6.x86_64```
 - [gdb教程]()
 
+3. Vim相关
+    - 插件管理器 [vim-plug](https://github.com/junegunn/vim-plug)
+    - 插件管理器 [Vundle](https://github.com/VundleVim/Vundle)
+
 
