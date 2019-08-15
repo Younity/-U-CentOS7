@@ -1,4 +1,4 @@
-# [gdb](reference: https://akaedu.github.io/book/)
+# gdb: [reference:](https://akaedu.github.io/book/)
 
 ### 入门
 
@@ -9,7 +9,7 @@
 				
 	list(l) 		列出源代码，每次10行  
 	list(l)	 -n		列出第n行开始的源代码
-		-fn		列出函数fn的源代码
+		 -fn		列出函数fn的源代码
 
 	step(s)			执行语句，会进入函数  
 	next(n)			执行语句，不会进入函数  
