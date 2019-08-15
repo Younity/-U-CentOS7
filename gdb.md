@@ -1,6 +1,6 @@
-# gdb: [reference:](https://akaedu.github.io/book/)
+# gdb
 
-### 入门
+### 入门([reference](https://akaedu.github.io/book/))
 
 1. 单步调试
 
