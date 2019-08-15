@@ -129,6 +129,6 @@ software could be install with EPEL:
 
 3. Vim相关
     - 插件管理器 [vim-plug](https://github.com/junegunn/vim-plug)
-    - 插件管理器 [Vundle](https://github.com/VundleVim/Vundle)
+    - 插件管理器 [Vundle](https://github.com/VundleVim/Vundle.vim)
 
 
