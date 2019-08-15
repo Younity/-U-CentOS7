@@ -136,4 +136,5 @@ software could be install with EPEL:
         - [previm](https://github.com/previm/previm): 预览md文件
         - [YoucompleteMe](https://github.com/ycm-core/YouCompleteMe): 自动补全语法
         - [change-colorscheme](https://github.com/chxuan/change-colorscheme): 更改 Vim 主题
+            - 主题[neodark.vim](https://github.com/KeitaNakamura/neodark.vim)
 
