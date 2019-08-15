@@ -130,5 +130,8 @@ software could be install with EPEL:
 3. Vim相关
     - 插件管理器 [vim-plug](https://github.com/junegunn/vim-plug)
     - 插件管理器 [Vundle](https://github.com/VundleVim/Vundle.vim)
+    - 插件 [vim-markdown](https://github.com/tamlok/vim-markdown)
+    - 插件 [previm](https://github.com/previm/previm)
+    - 插件 [YoucompleteMe](https://github.com/ycm-core/YouCompleteMe)
 
 
