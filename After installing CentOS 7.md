@@ -138,3 +138,5 @@ software could be install with EPEL:
         - [change-colorscheme](https://github.com/chxuan/change-colorscheme): 更改 Vim 主题
             - 主题[neodark.vim](https://github.com/KeitaNakamura/neodark.vim)
 
+4. CentOS 7桌面优化
+    - [CENTOS7界面美化](https://www.cnblogs.com/lpfdezh/p/11014541.html)
