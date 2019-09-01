@@ -1,0 +1,5 @@
+// 将下面的代码复制到40_custom文件夹的末尾。
+menuentry 'windows7' {
+    set root=(hd0,1)
+    chainloader +1
+}
