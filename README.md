@@ -29,4 +29,12 @@
     8.5 在打开的文件`grub.cfg`末尾添加[代码(grub.cfg)](https://github.com/Younity/-U-CentOS7/blob/master/grub.cfg)
 
     8.6 在Terminal中输入`grub2-mkconfig -o /boot/grub2/grub.cfg`。
+    
+9. 删除win10双系统中的centos7
+
+原文链接：https://blog.csdn.net/qq_38731633/article/details/78548459
+
+第一步：使用文件 "[覆盖linux引导]()" 中的MbrFix64.exe (64位系统，32位系统用MbrFix.exe)，将其放在C:/Windows/system32下，然后使用 "管理员模式" 打开命令提示符，使用命令 "cd ../.." ，进入C盘根目录，即 "c:>"，输入命令 "MbrFix64 /drive 0 fixmbr /yes"，这样就把linux的 grub 引导覆盖了，重启电脑，就没有linux的开机选择项了。
+
+第二步，在我的电脑，右键选择管理，磁盘管理，找到没有盘符标识的linux系统分区，右键删除卷，即可。
   
